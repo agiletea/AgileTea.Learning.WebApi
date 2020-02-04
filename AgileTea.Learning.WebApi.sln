@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileTea.Learning.WebApi", "src\AgileTea.Learning.WebApi\AgileTea.Learning.WebApi.csproj", "{EAC2EC7E-1876-4068-99B1-621433F8B8BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8FF2485-8DF0-42AD-A1D8-134EFBB093CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileTea.Learning.WebApi.Tests", "src\AgileTea.Learning.WebApi.Tests\AgileTea.Learning.WebApi.Tests.csproj", "{C22E70BD-DAAB-4D21-82A4-0E08E299E1FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F86EF381-4768-4026-A4D3-D410AE6C6CC7}"
+	ProjectSection(SolutionItems) = preProject
+		docs\README.md = docs\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileTea.Learning.Domain", "src\AgileTea.Learning.Domain\AgileTea.Learning.Domain.csproj", "{1B7900B1-1453-444D-AC81-DBB4D4B9E0A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69CC23A9-9196-423B-8C05-59D45DACF3A6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CodeAnalysisRuleSet.ruleset = CodeAnalysisRuleSet.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC2EC7E-1876-4068-99B1-621433F8B8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC2EC7E-1876-4068-99B1-621433F8B8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC2EC7E-1876-4068-99B1-621433F8B8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC2EC7E-1876-4068-99B1-621433F8B8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22E70BD-DAAB-4D21-82A4-0E08E299E1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22E70BD-DAAB-4D21-82A4-0E08E299E1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22E70BD-DAAB-4D21-82A4-0E08E299E1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22E70BD-DAAB-4D21-82A4-0E08E299E1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7900B1-1453-444D-AC81-DBB4D4B9E0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7900B1-1453-444D-AC81-DBB4D4B9E0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7900B1-1453-444D-AC81-DBB4D4B9E0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7900B1-1453-444D-AC81-DBB4D4B9E0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAC2EC7E-1876-4068-99B1-621433F8B8BF} = {E8FF2485-8DF0-42AD-A1D8-134EFBB093CE}
+		{C22E70BD-DAAB-4D21-82A4-0E08E299E1FB} = {E8FF2485-8DF0-42AD-A1D8-134EFBB093CE}
+		{1B7900B1-1453-444D-AC81-DBB4D4B9E0A1} = {E8FF2485-8DF0-42AD-A1D8-134EFBB093CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDFB7CBF-9B24-4919-BE9D-BB8D2A734557}
+	EndGlobalSection
+EndGlobal

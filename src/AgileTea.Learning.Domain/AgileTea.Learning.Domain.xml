@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgileTea.Learning.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:AgileTea.Learning.Domain.Entities.Client">
+            <summary>
+            Client details
+            </summary>
+        </member>
+        <member name="P:AgileTea.Learning.Domain.Entities.Client.Id">
+            <summary>
+            Gets or sets the Id of a client
+            </summary>
+        </member>
+        <member name="P:AgileTea.Learning.Domain.Entities.Client.FirstNames">
+            <summary>
+            Gets or sets the first name(s) of the client
+            </summary>
+        </member>
+        <member name="P:AgileTea.Learning.Domain.Entities.Client.LastName">
+            <summary>
+            Gets or sets the last name/ surname of the client
+            </summary>
+        </member>
+        <member name="P:AgileTea.Learning.Domain.Entities.Client.Title">
+            <summary>
+            Gets or sets the title (Mr, Mrs, Ms etc.) of the client
+            </summary>
+        </member>
+        <member name="P:AgileTea.Learning.Domain.Entities.Client.Salutation">
+            <summary>
+            Gets or sets the salutation of the client (i.e. how the client wishes to be addressed)
+            </summary>
+        </member>
+        <member name="T:AgileTea.Learning.Domain.Services.IClientService">
+            <summary>
+            Client service to provide basic CRUD operations on a client entity
+            </summary>
+        </member>
+        <member name="M:AgileTea.Learning.Domain.Services.IClientService.GetClientsAsync">
+            <summary>
+            Gets all clients from the underlying source
+            </summary>
+            <returns>A collection of clients</returns>
+        </member>
+        <member name="M:AgileTea.Learning.Domain.Services.IClientService.GetClientAsync(System.Guid)">
+            <summary>
+            Gets a client for the given id
+            </summary>
+            <param name="id">The id of the client</param>
+            <returns>The matched client</returns>
+        </member>
+        <member name="M:AgileTea.Learning.Domain.Services.IClientService.CreateClientAsync(AgileTea.Learning.Domain.Entities.Client)">
+            <summary>
+            Creates a new client
+            </summary>
+            <param name="client">The client to create</param>
+            <returns>The task created</returns>
+        </member>
+        <member name="M:AgileTea.Learning.Domain.Services.IClientService.UpdateClientAsync(AgileTea.Learning.Domain.Entities.Client)">
+            <summary>
+            Updates an existing client
+            </summary>
+            <param name="client">The client to update</param>
+            <returns>The task created</returns>
+        </member>
+        <member name="M:AgileTea.Learning.Domain.Services.IClientService.DeleteClientAsync(System.Guid)">
+            <summary>
+            Deletes an existing client
+            </summary>
+            <param name="id">The id of the client to delete</param>
+            <returns>The task created</returns>
+        </member>
+    </members>
+</doc>
